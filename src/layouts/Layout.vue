@@ -14,8 +14,8 @@
 
 
 <script setup lang="ts">
-import LayoutSidebar from "./layout-sidebar.vue"
-import LayoutHeader from "./layout-header.vue"
+import LayoutSidebar from "./Layout-sidebar.vue"
+import LayoutHeader from "./Layout-header.vue"
 </script>
 <style scoped lang="less">
 body {
@@ -37,7 +37,7 @@ body {
   overflow-x: auto;
 
   .content {
-    // margin: 150px 20px 20px 345px;
+    margin: 15px 20px 20px 34px;
     flex-grow: 1;
   }
 }
