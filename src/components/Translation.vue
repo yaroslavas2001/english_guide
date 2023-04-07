@@ -1,17 +1,20 @@
 <template>
-    <div class="translation_block">
-        <p> <span class="word">{{ word }} </span> <span class="translation">{{ translation }}</span> </p>
+    <div v-for="(item, index) in translationList" :key='index'>
+        <p class="translation_block">
+            <span class="word">{{ item.word }} </span>
+            <span class="translation">{{ item.translation }}</span>
+        </p>
     </div>
 </template>
 <script setup lang="ts">
+import WordModel from '../models/WordModel';
 
-defineProps<{ word: string, translation: string }>()
+defineProps<{ translationList: Array<WordModel>, }>()
 
 </script>
   
 <style scoped>
 .translation_block {
-    display: flex;
     margin: 5px 0px;
 }
 

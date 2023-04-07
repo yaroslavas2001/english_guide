@@ -1,9 +1,8 @@
 <template>
     <div>
         <h1>Вступление</h1>
-        <div v-for="(item, index) in Vocabulary" :key='index'>
-            <Translation :word='item.word' :translation="item.translation" />
-        </div>
+        <Translation :translation-list="Vocabulary" />
+
         <h2>Основные знаки</h2>
         <img class="introduction_img" :src="introduction" alt="introduction">
     </div>
