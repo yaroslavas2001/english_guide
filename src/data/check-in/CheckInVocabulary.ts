@@ -1,0 +1,35 @@
+import WordModel from "../../models/WordModel";
+
+let CheckInVocabulary: Array<WordModel> = [
+    { word: "Check-in", translation: "регистрация" },
+    { word: "Here you go", translation: "возьмите" },
+    { word: "Just", translation: "только" },
+    { word: "A series of questions ", translation: "ряд вопросов" },
+    { word: "Respond ", translation: "отвечать" },
+    { word: "To take", translation: "брать" },
+    { word: "Possession ", translation: "имущество" },
+    { word: "Pack ", translation: "упаковывать" },
+    { word: "Luggage/baggage ", translation: "багаж" },
+    { word: "Unattended ", translation: "без присмотра" },
+    { word: "Weapons ", translation: "оружие" },
+    { word: "Firearms ", translation: "огнестрельное оружие" },
+    { word: "Carry ", translation: "везти" },
+    { word: "Flammable material ", translation: "легковоспламеняющийся материал" },
+    { word: "Perishable food ", translation: "скоропортящиеся пищевые продукты" },
+    { word: "Aisle seat ", translation: "место в проходе" },
+    { word: "Place ", translation: "поставить" },
+    { word: "Gate number ", translation: "номер выхода на посадку" },
+    { word: "Bottom ", translation: "нижняя часть" },
+    { word: "Departure time ", translation: "время отправления" },
+    { word: "Boarding ", translation: "посадка" },
+    { word: "Corner ", translation: "угол" },
+    { word: "", translation: "" },
+    { word: "", translation: "" },
+    { word: "", translation: "" },
+    { word: "", translation: "" },
+    { word: "", translation: "" },
+    { word: "", translation: "" },
+    { word: "", translation: "" },
+
+];
+export default CheckInVocabulary
